@@ -4,6 +4,9 @@
 
 #include <execution>
 
+#include <cuda_runtime.h>
+
+
 namespace Utils {
 	static uint32_t ConvertToRGBA(const glm::vec4& colour)
 	{
